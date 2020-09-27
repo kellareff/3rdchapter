@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">3rdchapter3</string>
+    <string name="app_name">3rdchapter</string>
     <string name="stress_health"><![CDATA[<h3>STRESS & HEALTH</h3><p>Learn what is stress and how it affects&#10;your health<p>]]></string>
     <string name="html"><![CDATA[<h2>Title</h2><br><p>Description here</p>]]></string>
     <string name="header"><![CDATA[3RD CHAPTER]]></string>
