@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/p1"
+                android:layout_width="90dp"
+                android:layout_height="143dp"
+
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:contentDescription="@null"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/woman" />
+
+            <TextView
+                android:id="@+id/theader"
+                android:layout_width="291dp"
+
+                android:layout_height="140dp"
+                android:layout_gravity="right"
+                android:fontFamily="@font/alex_brush"
+                android:paddingTop="35dp"
+                android:text="@string/header"
+                android:textColor="#EA5656"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tsubheader"
+                android:layout_width="294dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:paddingTop="80dp"
+                android:singleLine="false"
+                android:text="@string/subheader"
+                android:paddingLeft="100dp"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frame1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="343dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#D5CFCF"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/stress_health"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/twwt"
+                android:layout_width="343dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#D5CFCF"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/wwt"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tcws"
+                android:layout_width="343dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#D5CFCF"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/cws"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame4"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tsyrtr"
+                android:layout_width="343dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#D5CFCF"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/syrtr"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame5"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tresil"
+                android:layout_width="343dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#D5CFCF"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/resil"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/frame6"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+                android:id="@+id/tresou"
+                android:layout_width="343dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="#D5CFCF"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/resou"
+                android:textColor="#000000"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </FrameLayout>
+
+
+
+
+
+
+
+        <FrameLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="58dp">
+            <TextView
+                android:id="@+id/tdesi"
+                android:layout_width="429dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#C84343"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:text="@string/desi"
+                android:textColor="#FFFFFF"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+    </ScrollView>>
+</android.support.constraint.ConstraintLayout>

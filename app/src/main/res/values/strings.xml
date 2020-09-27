@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">3rdchapter3</string>
+    <string name="stress_health"><![CDATA[<h3>STRESS & HEALTH</h3><p>Learn what is stress and how it affects&#10;your health<p>]]></string>
+    <string name="html"><![CDATA[<h2>Title</h2><br><p>Description here</p>]]></string>
+    <string name="header"><![CDATA[3RD CHAPTER]]></string>
+    <string name="subheader"><![CDATA[Pain is inevitable,\nsuffering is optional]]></string>
+    <string name="wwt"><![CDATA[<h3>WORKING WITH TRIGGERS</h3>Learn how to identify  your stressors and&#10;thinking errors]]></string>
+    <string name="cws"><![CDATA[<h3>COPING WITH STRESS</h3>Learn about common coping strategies]]></string>
+    <string name="syrtr"><![CDATA[<h3>STRESS: YOUR ROAD TO RECOVERY</h3>Learn about a variety of stress reduction techniques]]></string>
+    <string name="resil"><![CDATA[<h3>RESILIENCE</h3>Learn how to boost your resilience with lifestyle interventions]]></string>
+    <string name="resou"><![CDATA[<h3>RESOURCES</h3>]]></string>
+    <string name="desi"><![CDATA[<h2>Designed by  Velena McHugh</h2>]]></string>
+
+</resources>
